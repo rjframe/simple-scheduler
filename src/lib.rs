@@ -7,8 +7,8 @@
 //!
 //! Scheduled tasks are run asynchronously.
 //!
-//! This is not a precise scheduler; tasks may run at the exact interval or time
-//! specified.
+//! This is not a precise scheduler; tasks may not run at the exact interval or
+//! time specified.
 //!
 //! # Examples
 //!
