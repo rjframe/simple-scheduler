@@ -1,0 +1,18 @@
+[package]
+name = "simple-scheduler"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ryan Frame <code@ryanjframe.com>"]
+license = "MPL-2.0"
+
+description = "Schedule periodic tasks to run asynchronously"
+categories = [ "asynchronous" ]
+keywords = [ "async", "scheduler" ]
+
+repository = "https://git.sr.ht/~rjframe/simple-scheduler"
+readme = "README.md"
+
+[dependencies]
+# TODO check features, widen supported versions:
+chrono = "0.4.19"
+futures = { version = "0.3.21", features = [ "executor" ] }
